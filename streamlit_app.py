@@ -64,10 +64,7 @@ streamlit.dataframe(fruityvice_normalized)
 # New section to display fruityvice API Response
 streamlit.header('Fruityvice Fruit Advice!')
 
-import snowflake.connector
-
-
-fruit_choice = streamlit.text_input('What fruit would you like information about?')
+fruit_choice = streamlit.text_input('What fruit would you like information about?','kiwi')
 #streamlit.write('The user entered ', fruit_choice)
 
 #import requests
