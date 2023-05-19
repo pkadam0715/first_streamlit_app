@@ -102,10 +102,10 @@ streamlit.dataframe(my_data_rows)
 
 #allow the end user to add a fruit to the list 
 add_my_fruit = streamlit.text_input('what food would you like to add?')
-#streamlit.write('Thanks for adding', add_my_fruit)
+streamlit.write('Thanks for adding', add_my_fruit)
 
 #don't run anything past here while we troubleshoot
-streamlit.stop()
+#streamlit.stop()
 
 import snowflake.connector
 
