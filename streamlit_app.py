@@ -119,7 +119,7 @@ streamlit.text(my_data_rows)
 # New section to display fruityvice API Response
 
 streamlit.header('Fruityvice Fruit Advice!')
-try:
+'''try:
     fruit_choice = streamlit.text_input('what fruit would you like information about?')
     streamlit.write('The user entered ', fruit_choice)
     if not fruit_choice:
